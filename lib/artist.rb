@@ -8,6 +8,5 @@ class Artist
     @songs= []
   end
 
-  self.find_or_create_by_name
 
 end
