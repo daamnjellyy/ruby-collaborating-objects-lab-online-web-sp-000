@@ -15,7 +15,7 @@ class Artist
   def save
     @@all << self
   end
-  
+
   def self.all
     @@all
   end
@@ -26,6 +26,7 @@ class Artist
     else
       self.create(name)
     end
-    
+  end
+
 
 end
